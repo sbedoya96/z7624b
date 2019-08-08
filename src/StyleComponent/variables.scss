@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+$roboto : 'Roboto';
+$gray : #EBEBEB ;
+$pink : #CC0043;
+
+body{
+font-family: $roboto;
+a { // transición por defecto de todos los a ó link to <////////
+	color: #fff;
+	transition: all .5s ease;
+	&:hover {
+		color: #fff;
+		transform: scale(1.1);
+		transition: all .5s ease;
+		text-decoration: unset;
+	}
+}
+}

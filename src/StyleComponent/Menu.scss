@@ -1,0 +1,43 @@
+ul.Menu {
+	background-color: $gray;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	list-style: none;
+	width: 20%;
+	height: auto;
+	li {
+		width: 50%;
+        border: white 1px solid;
+        display: block;
+		a {
+			width: 100%;
+            display: block;
+            
+			.espada {
+				width: 36px;
+			}
+			img {
+				margin: 30% 30% 5%;
+			}
+			p {
+				text-transform: uppercase;
+				color: $pink;
+                text-align: center;
+               
+			}
+        }
+        transition: all .5s ease;
+	&:hover {
+		
+		background-color: #333333;
+		transition: all .5s ease;
+        text-decoration: unset;
+        
+        p{
+            color: white;
+        }
+	}
+    }
+    
+}

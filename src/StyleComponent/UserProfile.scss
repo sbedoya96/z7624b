@@ -1,0 +1,38 @@
+.profile {
+	&-img {
+		background-image: url('././assets/images/llamas.png');
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-size: 48%;
+		display: flex;
+		justify-content: center;
+	}
+	&-text {
+		display: block;
+		color: #fff;
+		ul {
+			display: flex;
+			list-style: none;
+			padding: 0;
+			justify-content: center;
+        }
+        li{
+            margin: 1%;
+        }
+		p {
+			justify-content: center;
+			display: flex;
+			font-weight: bold;
+			font-size: 20px;
+			margin-bottom: 0;
+		}
+		span {
+			justify-content: center;
+			display: flex;
+		}
+	}
+}
+
+.UserProfile{
+	margin-top: 10px;
+}
